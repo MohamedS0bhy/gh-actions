@@ -1,0 +1,11 @@
+name: Demo Workflow1
+run-name: This Is The Running Name
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu_latest
+    steps:
+      - name: echo Hi
+        run: echo "Hi"
+      - name: echo goodbye
+        run: echo "Goodbye^^"
