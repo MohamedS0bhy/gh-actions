@@ -1,9 +1,8 @@
 name: Demo Workflow1
-run-name: This Is The Running Name
 on: workflow_dispatch
 jobs:
   first_job:
-    runs-on: Ubuntu 24.04
+    runs-on: ubuntu-latest
     steps:
       - name: echo Hi
         run: echo "Hi"
