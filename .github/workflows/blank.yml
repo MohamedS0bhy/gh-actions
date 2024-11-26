@@ -3,7 +3,7 @@ run-name: This Is The Running Name
 on: workflow_dispatch
 jobs:
   first_job:
-    runs-on: ubuntu_latest
+    runs-on: Ubuntu 24.04
     steps:
       - name: echo Hi
         run: echo "Hi"
